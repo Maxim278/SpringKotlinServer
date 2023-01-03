@@ -51,7 +51,6 @@
                                         <div class="styles__headline___3KoOn">
                                             Коты на сайте:
                                         </div>
-
                                         <#if cats??>
                                             <#list cats as cat>
                                                 <a class="styles__cardWrapper___x_xbl" href="${cat.url}.jpg">
@@ -84,7 +83,9 @@
                                         <#else>
                                             Котов нет :(
                                         </#if>
-
+                                        <div>
+                                            ${time}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
